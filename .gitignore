@@ -1,0 +1,77 @@
+# ======================================================
+# 🧹 SGAD AVAILABILITY SERVICE — .gitignore
+# ======================================================
+
+# --- Archivos de entorno ---
+.env
+.env.*
+!.env.example
+
+# --- Archivos y carpetas de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# --- Archivos de dependencias ---
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# --- Entornos virtuales ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- Logs y caché ---
+*.log
+*.out
+*.err
+logs/
+*.sqlite3
+*.db
+instance/
+
+# --- Configuración del sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Docker y contenedores ---
+docker-compose.override.yml
+*.pid
+*.sock
+*.pid.lock
+
+# --- Archivos de test y cobertura ---
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+test-results.xml
+
+# --- Archivos temporales ---
+tmp/
+temp/
+*.tmp
+*.bak
+
+# --- Archivos de documentación generados ---
+docs/_build/
+docs/build/
+
+# --- Archivos específicos del servicio ---
+# (p.ej. tokens temporales, dumps de BD)
+*.dump
+*.sql

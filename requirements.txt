@@ -1,0 +1,27 @@
+# ======================================
+# SGAD Availability Service Dependencies
+# ======================================
+
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# --- Database ---
+SQLAlchemy==2.0.32
+psycopg2-binary==2.9.9
+
+# --- Environment management ---
+python-dotenv==1.0.1
+
+# --- Scheduler ---
+APScheduler==3.10.4
+
+# --- HTTP communication (auth-service) ---
+requests==2.32.3
+
+# --- Validation ---
+pydantic[email]==2.9.2
+
+# --- Development / testing (optional) ---
+pytest==8.3.3
+httpx==0.27.2
